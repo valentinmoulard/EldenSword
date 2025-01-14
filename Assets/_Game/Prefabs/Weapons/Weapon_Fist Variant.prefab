@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7047960502634703925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253220929266617076, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070225724581339630, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      propertyPath: m_Name
+      value: WeaponBase Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7070225724581339630, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3478718559877106908}
+    - targetCorrespondingSourceObject: {fileID: 7070225724581339630, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7052740084515087452}
+  m_SourcePrefab: {fileID: 100100000, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+--- !u!1 &275034494975184347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7070225724581339630, guid: 0325b833a7e664f019bef5ae118bbf76, type: 3}
+  m_PrefabInstance: {fileID: 7047960502634703925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &3478718559877106908
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275034494975184347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.68
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.65, z: 0}
+--- !u!114 &7052740084515087452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275034494975184347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51bd72e8dc804ab4bcb055aaab692be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_effectiveLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  m_weaponStatsBase:
+    WeaponType: 2
+    WeaponRange: 2
+    UseDuration: 2
+    UseCooldown: 4
+  m_weaponStatsMelee:
+    StartEnableDamagingPart: 0.2
+    EndEnableDamagingPart: 0.8
+    SwordDamage: 10
